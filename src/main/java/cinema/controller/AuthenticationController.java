@@ -1,7 +1,6 @@
 package cinema.controller;
 
 import javax.validation.Valid;
-
 import cinema.dto.request.UserRequestDto;
 import cinema.dto.response.UserResponseDto;
 import cinema.service.mapper.ResponseDtoMapper;

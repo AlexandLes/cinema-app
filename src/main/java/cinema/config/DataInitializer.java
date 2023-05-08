@@ -1,18 +1,16 @@
 package cinema.config;
 
-import java.util.Set;
-import javax.annotation.PostConstruct;
-
 import cinema.model.User;
 import cinema.service.RoleService;
 import cinema.service.ShoppingCartService;
 import cinema.service.UserService;
 import cinema.model.Role;
+import java.util.Set;
+import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
 @Component
 public class DataInitializer {
-
     private final UserService userService;
     private final RoleService roleService;
     private final ShoppingCartService shoppingCartService;

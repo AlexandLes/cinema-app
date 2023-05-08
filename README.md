@@ -2,9 +2,9 @@
 
 -------------------------------------------------------------
 
-The purpose of this project is to create a web application for a cinema that enables users to browse through the schedule of movie sessions and purchase tickets online. 
-The application is equipped with a user registration system and a secure section with different access rights, depending on user roles. 
-Users can also retrieve details about the movies that are available at the cinema, including descriptions.
+The purpose of this project is to create a web application for a cinema that allows users to browse the schedule of movie sessions and purchase tickets online. 
+The application has user registration system and a secure section with different access rights, depending on user roles. 
+Users can also retrieve details about the movies available at the cinema, including descriptions.
 
 -------------------------------------------------------------
 # Features
@@ -33,8 +33,9 @@ Users can also retrieve details about the movies that are available at the cinem
 `YOUR_USERNAME`,
 `YOUR_PASSWORD` in **src/main/resources/db.properties** to yours
 4. Deploy generated WAR file to a servlet container such as Tomcat
-5. Login in existing accounts : `admin@.ua` with password `1234` with Admin permitions
-or register your own user account using `**/register `endpoint
+5. Authentication for admin with data : login `admin@.ua` with password `1234` with Admin permitions
+, User : login `defaulr@i.ua` and password `1234` . These users are already injected into application.
+6. You can send different requests using `Postman` service.
 
 ----------------------------------
 
