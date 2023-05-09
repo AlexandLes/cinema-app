@@ -40,7 +40,7 @@ public class DataInitializer {
         shoppingCartService.registerNewShoppingCart(admin);
 
         User defaultUser = new User();
-        defaultUser.setEmail("defaultUser@i.ua");
+        defaultUser.setEmail("default@i.ua");
         defaultUser.setPassword("1234");
         defaultUser.setRoles(Set.of(userRole));
         userService.add(defaultUser);
