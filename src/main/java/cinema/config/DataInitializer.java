@@ -39,12 +39,12 @@ public class DataInitializer {
         userService.add(admin);
         shoppingCartService.registerNewShoppingCart(admin);
 
-        User defaulrUser = new User();
-        defaulrUser.setEmail("defaulrUser@i.ua");
-        defaulrUser.setPassword("1234");
-        defaulrUser.setRoles(Set.of(userRole));
-        userService.add(defaulrUser);
-        shoppingCartService.registerNewShoppingCart(defaulrUser);
+        User defaultUser = new User();
+        defaultUser.setEmail("defaultUser@i.ua");
+        defaultUser.setPassword("1234");
+        defaultUser.setRoles(Set.of(userRole));
+        userService.add(defaultUser);
+        shoppingCartService.registerNewShoppingCart(defaultUser);
 
         User adminOnly = new User();
         adminOnly.setEmail("admin@gmail.com");

@@ -18,9 +18,9 @@ Users can also retrieve details about the movies available at the cinema, includ
     * Check available movie sessions
     * Check available movies and their descriprions
     * Check available cinema halls
-* Registation of new user (shoping cart adds automaticaly)
-* Adding tickets to a shopping cart
-* Completing order
+    * Registation of new user (shoping cart adds automaticaly)
+    * Adding tickets to a shopping cart
+    * Completing order
  --------------------------------------------------------   
 
 # How to run application?
@@ -33,8 +33,9 @@ Users can also retrieve details about the movies available at the cinema, includ
 `YOUR_USERNAME`,
 `YOUR_PASSWORD` in **src/main/resources/db.properties** to yours
 4. Deploy generated WAR file to a servlet container such as Tomcat
-5. Authentication for admin with data : login `admin@.ua` with password `1234` with Admin permitions
-, User : login `defaulr@i.ua` and password `1234` . These users are already injected into application.
+5. Authentication for admin with data : login `admin@.ua` with password `1234` with Admin and User permitions
+, User permitions only: login `default@i.ua` and password `1234` , Admin permitions only: login `admin@gmail.com` with password `12344321`.
+These users are already injected into application.
 6. You can send different requests using `Postman` service.
 
 ----------------------------------
